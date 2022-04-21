@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Calculator App</title>
+  </head>
+  <body>
+    <div class="outer-container">
+      <div class="container">
+        <div class="title-theme-slider">
+          <h1>calc</h1>
+          <div class="slider-container">
+            <h3 class="theme">Theme</h3>
+            <div class="slider-nums">
+              <div class="nums">
+                <h3>1</h3>
+                <h3>2</h3>
+                <h3>3</h3>
+              </div>
+
+              <div class="slider">
+                <div class="slider-btn-1"></div>
+                <div class="slider-btn-2"></div>
+                <div class="slider-btn-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="result-container">
+          <div></div>
+          <div></div>
+          <h1 class="results" data-value="0"></h1>
+        </div>
+
+        <div class="numbers-container">
+          <div id="seven" data-type="numbers" data-value="7">7</div>
+          <div id="eight" data-type="numbers" data-value="8">8</div>
+          <div id="nine" data-type="numbers" data-value="9">9</div>
+          <div id="delete-btn" data-type="delete">Del</div>
+          <div id="four" data-type="numbers" data-value="4">4</div>
+          <div id="five" data-type="numbers" data-value="5">5</div>
+          <div id="six" data-type="numbers" data-value="6">6</div>
+          <div id="plus" data-type="operators" data-value="+">+</div>
+          <div id="one" data-type="numbers" data-value="1">1</div>
+          <div id="two" data-type="numbers" data-value="2">2</div>
+          <div id="three" data-type="numbers" data-value="3">3</div>
+          <div id="minus" data-type="operators" data-value="-">-</div>
+          <div id="decimal" data-type="numbers" data-value=".">.</div>
+          <div id="zero" data-type="numbers" data-value="0">0</div>
+          <div id="division" data-type="operators" data-value="/">/</div>
+          <div id="multiply" data-type="operators" data-value="*">x</div>
+          <div id="reset-btn"><span>Reset</span></div>
+          <div id="equal-btn" data-type="equals">=</div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
